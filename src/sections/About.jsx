@@ -47,7 +47,7 @@ export default function About() {
       <div className="container">
 
         <motion.div {...fadeUp(0)}>
-          <p className="section-label">About me</p>
+          <p className="section-label">Abot me</p>
           <h2 className="section-title">Saya membangun hal-hal<br />yang berarti</h2>
         </motion.div>
 
@@ -55,35 +55,14 @@ export default function About() {
 
           {/* Left: Bio */}
           <motion.div {...fadeUp(0.1)}>
-            {/* Avatar placeholder */}
-            <div style={{
-              width: '100%', aspectRatio: '4/3',
-              background: 'var(--bg-card)',
-              border: '1px solid var(--border)',
+            {/*profile picture */}
+            <img scr='/poto.jpeg' alt='Rifky Alan Maulana' style={{
+              width: '100%',
+              aspectRatio: '4/3 ',
+              objectFit: 'cover',
               borderRadius: 'var(--radius-lg)',
-              marginBottom: '32px',
-              display: 'flex', alignItems: 'center', justifyContent: 'center',
-              color: 'var(--text-muted)',
-              fontSize: '0.85rem', fontFamily: 'var(--font-display)',
-              letterSpacing: '0.05em',
-              position: 'relative',
-              overflow: 'hidden',
-            }}>
-              {/* Geometric decoration */}
-              <div style={{
-                position: 'absolute', width: '160px', height: '160px',
-                borderRadius: '50%',
-                border: '1px solid var(--border-hover)',
-              }} />
-              <div style={{
-                position: 'absolute', width: '100px', height: '100px',
-                borderRadius: '50%',
-                border: '1px solid var(--accent-dim)',
-              }} />
-              <span style={{ position: 'relative', color: 'var(--text-secondary)' }}>
-                Foto kamu di sini
-              </span>
-            </div>
+              border: '1px solid var(--border)',
+            }} />
 
             {/* Stats grid */}
             <div ref={statsRef} style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>

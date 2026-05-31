@@ -3,10 +3,10 @@ import { motion } from 'framer-motion';
 import { FiMail, FiMapPin, FiSend, FiCheck, FiGithub, FiLinkedin } from 'react-icons/fi';
 
 const contactInfo = [
-  { icon: FiMail,   label: 'Email',    value: 'rifky@email.com',   href: 'mailto:rifky@email.com' },
+  { icon: FiMail,   label: 'Email',    value: 'rifkyalan2805@gmail.com',   href: 'mailto:rifkyalan2805@email.com' },
   { icon: FiMapPin, label: 'Location', value: 'Malang, Jawa Timur', href: null },
-  { icon: FiGithub, label: 'GitHub',   value: 'github.com/rifkyalanmaulana', href: 'https://github.com/rifkyalanmaulana' },
-  { icon: FiLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/rifkyalanmaulana', href: 'https://linkedin.com/in/rifkyalanmaulana' },
+  { icon: FiGithub, label: 'GitHub',   value: 'github.com/rifkyalanmaulana2805_creator', href: 'https://github.com/rifkyalan2805-creator' },
+  { icon: FiLinkedin, label: 'LinkedIn', value: 'linkedin.com/in/rifkyalan', href: 'www.linkedin.com/in/rifky-alan-234636363' }
 ];
 
 const fadeUp = (delay = 0) => ({
