@@ -5,8 +5,8 @@ import { FiGithub, FiLinkedin, FiTwitter, FiDownload, FiArrowRight } from 'react
 import { Link } from 'react-scroll';
 
 const socials = [
-  { icon: FiGithub,   href: 'https://github.com/rifkyalanmaulana',   label: 'GitHub' },
-  { icon: FiLinkedin, href: 'https://linkedin.com/in/rifkyalanmaulana', label: 'LinkedIn' },
+  { icon: FiGithub,   href: 'https://github.com/rifkyalan2805-creator',   label: 'GitHub' },
+  { icon: FiLinkedin, href: 'www.linkedin.com/in/rifky-alan-234636363', label: 'LinkedIn' },
   { icon: FiTwitter,  href: 'https://twitter.com/rifkyalanmaulana', label: 'Twitter' },
 ];
 
