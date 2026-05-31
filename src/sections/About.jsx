@@ -47,7 +47,7 @@ export default function About() {
       <div className="container">
 
         <motion.div {...fadeUp(0)}>
-          <p className="section-label">Abot me</p>
+          <p className="section-label">About me</p>
           <h2 className="section-title">Saya membangun hal-hal<br />yang berarti</h2>
         </motion.div>
 
@@ -56,7 +56,7 @@ export default function About() {
           {/* Left: Bio */}
           <motion.div {...fadeUp(0.1)}>
             {/*profile picture */}
-            <img src={`${process.env.PUBLIC_URL}/poto.jpg`} alt='Rifky Alan Maulana' style={{
+            <img src={`${process.env.PUBLIC_URL}/foto.jpg`} alt='Rifky Alan Maulana' style={{
               width: '100%',
               aspectRatio: '4/3 ',
               objectFit: 'cover',
