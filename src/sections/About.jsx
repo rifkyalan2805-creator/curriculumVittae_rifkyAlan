@@ -56,7 +56,7 @@ export default function About() {
           {/* Left: Bio */}
           <motion.div {...fadeUp(0.1)}>
             {/*profile picture */}
-            <img src='/poto.jpg' alt='Rifky Alan Maulana' style={{
+            <img src={`${process.env.PUBLIC_URL}/poto.jpg`} alt='Rifky Alan Maulana' style={{
               width: '100%',
               aspectRatio: '4/3 ',
               objectFit: 'cover',
